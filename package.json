@@ -1,0 +1,21 @@
+{
+    "name": "onedark-italic",
+    "displayName": "OneDark Italic",
+    "description": "OneDark Italic Theme",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.35.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "OneDark Italic",
+                "uiTheme": "vs-dark",
+                "path": "./themes/OneDark Italic-color-theme.json"
+            }
+        ]
+    }
+}
