@@ -270,6 +270,15 @@
 			}
 		},
 		{
+			"name": "[Fix]Punctuation Separator",
+			"scope": [
+				"punctuation.separator"
+			],
+			"settings": {
+				"foreground": "#ABB2BF"
+			}
+		},
+		{
 			"name": "Punctuation Definition Heading,Punctuation Definition Identity",
 			"scope": [
 				"punctuation.definition.heading",
@@ -313,6 +322,15 @@
 			"name": "[Add]Punctuation Definition Block",
 			"scope": [
 				"punctuation.definition.block"
+			],
+			"settings": {
+				"foreground": "#ABB2BF"
+			}
+		},
+		{
+			"name": "[Add]Punctuation Definition Binding-Pattern Array",
+			"scope": [
+				"punctuation.definition.binding-pattern.array"
 			],
 			"settings": {
 				"foreground": "#ABB2BF"
@@ -390,15 +408,6 @@
 			],
 			"settings": {
 				"foreground": "#61AFEF"
-			}
-		},
-		{
-			"name": "[Add]Support Variable",
-			"scope": [
-				"support.variable"
-			],
-			"settings": {
-				"foreground": "#E06C75"
 			}
 		},
 		{
@@ -554,6 +563,15 @@
 			],
 			"settings": {
 				"foreground": "#ABB2BF"
+			}
+		},
+		{
+			"name": "[Add]Meta Attribute",
+			"scope": [
+				"meta.attribute"
+			],
+			"settings": {
+				"foreground": "#D19A66"
 			}
 		},
 		{
@@ -1073,6 +1091,15 @@
 			}
 		},
 		{
+			"name": "[Cover]Source Tsx Keyword Operator",
+			"scope": [
+				"source.tsx keyword.operator"
+			],
+			"settings": {
+				"foreground": "#56B6C2"
+			}
+		},
+		{
 			"name": "Source Flow Keyword Operator",
 			"scope": [
 				"source.flow keyword.operator"
@@ -1243,6 +1270,25 @@
 			}
 		},
 		{
+			"name": "[Cover]Source Php Keyword Operator",
+			"scope": [
+				"source.php keyword.operator"
+			],
+			"settings": {
+				"foreground": "#ABB2BF"
+			}
+		},
+		{
+			"name": "[Cover]Php Punctuation Definition Class Curly Bracket",
+			"scope": [
+				"punctuation.definition.class.begin.bracket.curly.php",
+				"punctuation.definition.class.end.bracket.curly.php"
+			],
+			"settings": {
+				"foreground": "#ABB2BF"
+			}
+		},
+		{
 			"name": "Source Python Keyword Operator Logical Python",
 			"scope": [
 				"source.python keyword.operator.logical.python"
@@ -1258,6 +1304,51 @@
 			],
 			"settings": {
 				"foreground": "#D19A66"
+			}
+		},
+		{
+			"name": "[Cover]Source Python Keyword Operator",
+			"scope": [
+				"source.python keyword.operator"
+			],
+			"settings": {
+				"foreground": "#ABB2BF"
+			}
+		},
+		{
+			"name": "[Cover]Source Rust Keyword Operator",
+			"scope": [
+				"source.rust keyword.operator"
+			],
+			"settings": {
+				"foreground": "#ABB2BF"
+			}
+		},
+		{
+			"name": "[Cover]Source SQL Keyword Operator",
+			"scope": [
+				"source.sql keyword.operator"
+			],
+			"settings": {
+				"foreground": "#ABB2BF"
+			}
+		},
+		{
+			"name": "[Cover]HTML Meta Attribute Class",
+			"scope": [
+				"meta.attribute.class.html"
+			],
+			"settings": {
+				"foreground": "#E5C07B"
+			}
+		},
+		{
+			"name": "[Cover]HTML Meta Attribute ID",
+			"scope": [
+				"meta.attribute.id.html"
+			],
+			"settings": {
+				"foreground": "#ABB2BF"
 			}
 		}
 	]
