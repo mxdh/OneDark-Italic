@@ -2,10 +2,44 @@
 	"name": "OneDark Italic",
 	"type": "dark",
 	"colors": {
-		"editor.background": "#282c34",
+		"focusBorder": "#FFFFFF00",
+		"editor.background": "#282C34",
 		"editor.foreground": "#ABB2BF",
+		"editor.lineHighlightBackground": "#99BBFF0A",
+		"editorCursor.foreground": "#528BFF",
+		"editorIndentGuide.background": "#ABB2BF26",
+		"editorLineNumber.foreground": "#636D83",
+		"editorLineNumber.activeForeground": "#ABB2BF",
+		"editorGroupHeader.tabsBackground": "#21252B",
+		"editorGroupHeader.tabsBorder": "#181A1F",
+		"editorWidget.background": "#21252B",
+		"activityBar.background": "#21252B",
+		"activityBar.border": "#181A1F",
 		"activityBarBadge.background": "#007acc",
-		"sideBarTitle.foreground": "#bbbbbb"
+		"sideBar.background": "#21252B",
+		"sideBar.border": "#181A1F",
+		"sideBarTitle.foreground": "#bbbbbb",
+		"sideBarSectionHeader.background": "#21252B",
+		"sideBarSectionHeader.border": "#181A1F",
+		"badge.foreground": "#D7DAE0",
+		"badge.background": "#3E4451",
+		"button.background": "#4D78CC",
+		"button.foreground": "#FFFFFF",
+		"button.hoverBackground": "#557ECF",
+		"tab.inactiveBackground": "#21252B",
+		"tab.border": "#181A1F",
+		"panel.background": "#21252B",
+		"panel.border": "#181A1F",
+		"statusBar.background": "#21252B",
+		"statusBar.border": "#181A1F",
+		"menu.background": "#21252B",
+		"menubar.selectionBackground": "#21252B",
+		"titleBar.activeBackground": "#21252B",
+		"titleBar.inactiveBackground": "#21252B",
+		"titleBar.border": "#181A1F",
+		"debugToolBar.background": "#21252B",
+		"dropdown.background": "#3A3F4B",
+		"dropdown.border": "#181A1F"
 	},
 	"tokenColors": [
 		{
@@ -132,6 +166,15 @@
 			"name": "Constant Variable",
 			"scope": [
 				"constant.variable"
+			],
+			"settings": {
+				"foreground": "#D19A66"
+			}
+		},
+		{
+			"name": "[Fix]Constant Variable",
+			"scope": [
+				"variable.other.constant"
 			],
 			"settings": {
 				"foreground": "#D19A66"
@@ -357,9 +400,9 @@
 			}
 		},
 		{
-			"name": "[Add]Punctuation Terminator Statement",
+			"name": "[Add]Punctuation Terminator",
 			"scope": [
-				"punctuation.terminator.statement"
+				"punctuation.terminator"
 			],
 			"settings": {
 				"foreground": "#ABB2BF"
@@ -1286,6 +1329,15 @@
 			],
 			"settings": {
 				"foreground": "#ABB2BF"
+			}
+		},
+		{
+			"name": "[Add]PHP Punctuation Definition Variable",
+			"scope": [
+				"punctuation.definition.variable.php"
+			],
+			"settings": {
+				"foreground": "#E06C75"
 			}
 		},
 		{
